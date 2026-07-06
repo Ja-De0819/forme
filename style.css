@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:#f2f2f2;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+}
+
+.phone{
+
+    width:390px;
+
+    height:844px;
+
+    background:white;
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+.content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    margin-top:40px;
+}
+
+.logoRow{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+}
+
+.logo{
+
+    width:58px;
+}
+
+h1{
+
+    font-size:28px;
+
+    font-weight:700;
+}
+
+.username{
+
+    margin-top:18px;
+
+    font-size:22px;
+
+    color:#222;
+}
+
+.datetime{
+
+    margin-top:8px;
+
+    font-size:24px;
+
+    font-weight:500;
+
+    color:#0066ff;
+
+    transition:.5s;
+}
+
+.cameraContainer{
+
+    margin-top:70px;
+}
+
+.camera{
+
+    width:220px;
+}
+
+.bottomNav{
+
+    position:absolute;
+
+    bottom:18px;
+
+    left:0;
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-around;
+
+    color:#888;
+}
+
+.navItem{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    font-size:12px;
+}
+
+.navItem .material-icons{
+
+    font-size:24px;
+}
+
+.active{
+
+    color:#0066ff;
+}
+
+.version{
+
+    position:absolute;
+
+    right:10px;
+
+    bottom:80px;
+
+    color:#888;
+
+    font-size:11px;
+}
