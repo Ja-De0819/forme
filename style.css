@@ -15,7 +15,6 @@ body{
 
     align-items:center;
 
-    height:100vh;
 }
 
 .phone{
@@ -25,10 +24,6 @@ body{
     height:100vh;
 
     background:#f3f3f5;
-
-    position:relative;
-
-    overflow:hidden;
 }
 
 .content{
