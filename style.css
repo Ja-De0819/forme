@@ -66,35 +66,35 @@ html.standalone .phone{
 
     align-items:center;
 
-    gap:22px;
+    gap:16px;
 }
 
 .logo{
 
-    width:120px;
+    width:168px;
 }
 
 h1{
 
-    font-size:48px;
+    font-size:58px;
 
     font-weight:700;
 }
 
 .username{
 
-    margin-top:34px;
+    margin-top:18px;
 
-    font-size:40px;
+    font-size:48px;
 
     color:#222;
 }
 
 .datetime{
 
-    margin-top:10px;
+    margin-top:4px;
 
-    font-size:46px;
+    font-size:55px;
 
     font-weight:500;
 
@@ -105,7 +105,7 @@ h1{
 
 .cameraContainer{
 
-    margin-top:10px;
+    margin-top:-22px;
 }
 
 .camera{
