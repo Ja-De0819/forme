@@ -1,137 +1,74 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta charset="UTF-8">
+    <title>UEM Camera</title>
 
-body{
-    margin:0;
-    width:100%;
-    height:100dvh;
-    overflow:hidden;
-    background:#f3f3f5;
-}
+    <link rel="stylesheet" href="style.css">
 
-.phone{
-    width:100%;
-    height:100dvh;
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+</head>
 
-    display:flex;
-    flex-direction:column;
+<body>
 
-    background:#f3f3f5;
+<div class="phone">
 
-    overflow:hidden;
-}
+    <div class="content">
 
-.content{
-    flex:1;
+        <div class="header">
 
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:space-evenly;
+            <div class="logoRow">
+                <img src="assets/logo.png" class="logo">
+                <h1>UEM</h1>
+            </div>
 
-    padding-top:30px;
-}
+            <div class="username">
+                Jade Lu
+            </div>
 
-.header{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-}
+            <div id="date" class="datetime"></div>
 
-.logoRow{
+            <div id="time" class="datetime"></div>
 
-    display:flex;
+        </div>
 
-    align-items:center;
+        <div class="cameraContainer">
+            <img src="assets/camera.png" class="camera">
+        </div>
 
-    gap:22px;
-}
+    </div>
+    
+    <div class="version">
+        Ver. 1.0.19
+    </div>
 
-.logo{
+    <div class="bottomNav">
 
-    width:260px;
-}
+        <div class="navItem">
+            <span class="material-icons">home</span>
+            <small>Home</small>
+        </div>
 
-h1{
+        <div class="navItem active">
+            <span class="material-icons">photo_camera</span>
+            <small>Evidence</small>
+        </div>
 
-    font-size:51px;
+        <div class="navItem">
+            <span class="material-icons">more_horiz</span>
+            <small>More</small>
+        </div>
 
-    font-weight:700;
-}
+    </div>
 
-.username{
+</div>
 
-    margin-top:34px;
+<script src="script.js"></script>
 
-    font-size:41px;
-
-    color:#222;
-}
-
-.datetime{
-
-    margin-top:10px;
-
-    font-size:48px;
-
-    font-weight:500;
-
-    color:#0066ff;
-
-    transition:.5s;
-}
-
-.cameraContainer{
-
-    margin-top:86px;
-}
-
-.camera{
-
-    width:540px;
-}
-
-.bottomNav{
-    height:70px;
-
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-
-    background:#f3f3f5;
-
-    padding-bottom:env(safe-area-inset-bottom);
-}
-
-.navItem{
-
-    display:flex;
-
-    flex-direction:column;
-
-    align-items:center;
-
-    font-size:12px;
-}
-
-.navItem .material-icons{
-
-    font-size:24px;
-}
-
-.active{
-
-    color:#0066ff;
-}
-
-.version{
-    text-align:right;
-    padding-right:10px;
-    font-size:11px;
-    color:#888;
-}
+</body>
+</html>
