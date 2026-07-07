@@ -36,41 +36,48 @@ body{
     padding-top:30px;
 }
 
+.header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
 .logoRow{
 
     display:flex;
 
     align-items:center;
 
-    gap:18px;
+    gap:44px;
 }
 
 .logo{
 
-    width:58px;
+    width:260px;
 }
 
 h1{
 
-    font-size:28px;
+    font-size:102px;
 
     font-weight:700;
 }
 
 .username{
 
-    margin-top:18px;
+    margin-top:34px;
 
-    font-size:22px;
+    font-size:82px;
 
     color:#222;
 }
 
 .datetime{
 
-    margin-top:8px;
+    margin-top:10px;
 
-    font-size:24px;
+    font-size:96px;
 
     font-weight:500;
 
@@ -81,12 +88,12 @@ h1{
 
 .cameraContainer{
 
-    margin-top:70px;
+    margin-top:86px;
 }
 
 .camera{
 
-    width:220px;
+    width:500px;
 }
 
 .bottomNav{
