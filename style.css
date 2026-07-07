@@ -10,6 +10,10 @@ html{
     text-size-adjust:100%;
 }
 
+:root{
+    --standalone-scale:1.5;
+}
+
 body{
     margin:0;
     width:100%;
@@ -28,6 +32,14 @@ body{
     background:#f3f3f5;
 
     overflow:hidden;
+}
+
+html.standalone .phone{
+    width:calc(100% / var(--standalone-scale));
+    height:calc(100dvh / var(--standalone-scale));
+    margin:0 auto;
+    transform:scale(var(--standalone-scale));
+    transform-origin:top center;
 }
 
 .content{
