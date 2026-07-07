@@ -1,6 +1,13 @@
 const dateElement = document.getElementById("date");
 const timeElement = document.getElementById("time");
 
+const isStandalone = window.matchMedia("(display-mode: standalone)").matches
+    || window.navigator.standalone === true;
+
+if(isStandalone){
+    document.documentElement.classList.add("standalone");
+}
+
 const colours = [
     "purple",
     "red",
